@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DFA6D4"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="140dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="252dp"
+        android:layout_marginEnd="96dp"
+        android:background="#2B2D30"
+        android:fontFamily="sans-serif-medium"
+        android:text="Button"
+        android:textColor="@color/white"
+        android:textColorLink="#D5D0D0"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:text="" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="140dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="352dp"
+        android:layout_marginEnd="96dp"
+        android:background="#2B2D30"
+        android:fontFamily="sans-serif-medium"
+        android:text="Button"
+        android:textColor="@color/white"
+        android:textColorLink="#D5D0D0"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:text="" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="153dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="36dp"
+        android:text="contraseña "
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="401dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="154dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="136dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Button"
+        android:textColor="@color/material_dynamic_neutral0"
+        android:textColorLink="#7A777A"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="cancelar" />
+
+    
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="153dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="36dp"
+        android:text="contraseña"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="350dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="140dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="304dp"
+        android:layout_marginEnd="96dp"
+        android:background="#2B2D30"
+        android:fontFamily="sans-serif-medium"
+        android:text="Button"
+        android:textColor="@color/white"
+        android:textColorLink="#D5D0D0"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:text="" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="140dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="156dp"
+        android:layout_marginEnd="96dp"
+        android:background="#2B2D30"
+        android:fontFamily="sans-serif-medium"
+        android:text="Button"
+        android:textColor="@color/white"
+        android:textColorLink="#D5D0D0"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:text="" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="15dp"
+        android:text="FLORISTERIA EL JARDIN DE TEJULIA"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="153dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="36dp"
+        android:text="Nombre"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="103dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="153dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="36dp"
+        android:text="Apellido"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="151dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="153dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="36dp"
+        android:text="telefono"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="203dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="153dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="40dp"
+        android:text="correo"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="247dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="153dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="40dp"
+        android:text="Direccion"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="299dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="140dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="96dp"
+        android:background="#2B2D30"
+        android:fontFamily="sans-serif-medium"
+        android:text="Button"
+        android:textColor="@color/white"
+        android:textColorLink="#D5D0D0"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:text="" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="140dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="96dp"
+        android:background="#2B2D30"
+        android:fontFamily="sans-serif-medium"
+        android:text="Button"
+        android:textColor="@color/white"
+        android:textColorLink="#D5D0D0"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:text="" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="140dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="96dp"
+        android:background="#2B2D30"
+        android:fontFamily="sans-serif-medium"
+        android:text="Button"
+        android:textColor="@color/white"
+        android:textColorLink="#D5D0D0"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:text="" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
